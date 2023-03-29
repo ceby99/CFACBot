@@ -19,7 +19,7 @@ jobs:
 
       - name: "Docker Build/Push"
         id: build
-        uses: elgohr/Publish-Docker-Github-Action@master
+        uses: elgohr/Publish-Docker-Github-Action@v5
         with:
           name: ${GITHUB_REPOSITORY}/bot
           username: ${{ github.actor }}
